@@ -1,0 +1,6 @@
+[global]
+showWarningOnDirectExecution = false
+
+[server]
+headless = true  # Don't open new tab on run
+runOnSave = true

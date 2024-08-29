@@ -1,7 +1,8 @@
 # OpenAI Assistants API tester
 
-This repo periodically checks the response time of the Assistants API.
+This repo contains:
 
-As of Aug 2024, it's not usable (~2 seconds for a basic response). 
+- a backend in `/cloud_function` that periodically checks the response time of the Assistants API.
+- a frontend in `/streamlit` that plots the response times.
 
 The goal of this repo is to make it easy to check when it becomes usable.
